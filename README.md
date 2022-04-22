@@ -12,10 +12,16 @@ mpa dev server / build webpack
 ## Example
 *```npm run startDev```
   - Will run **ALL** features in one page. NOT RECOMMENDED
+
+
 *```npm run startDev --file="Category"```
   - Will run Category feature at port 8080
+
+
 *```npm run startDev --file="Category Homepage"```
   - Will run Category feature at port 8080 and Homepage feature at port 8081
+
+
 *```npm run startDev --file="Category Homepage" --port="8081" ---analyze```
   - Will run Category feature at port 8081 and Homepage feature at port 8082 and will run analyzer
 
