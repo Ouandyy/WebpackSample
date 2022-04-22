@@ -26,11 +26,10 @@ mpa dev server / build webpack
   - Will run Category feature at port 8081 and Homepage feature at port 8082 and will run analyzer
 
 # Webpack Production Build
+```npm run buildProd```
 * Build for production or build for gain access to full website.
 
 
-```npm run buildProd```
+```npm run buildProd --file="YOURFILENAME ANOTHERFILENAME"```
 * Can also build specific features. Should only be using this for development purposes for now. 11/16/2021.
 
-
-```npm run buildProd --file="YOURFILENAME ANOTHERFILENAME"```
